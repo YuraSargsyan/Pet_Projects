@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main__quiz-game {
+  background-image: url('/quizGame/images/1612321577_23-p-shabloni-dlya-prezentatsii-korichnevii-fon-33.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.main__quiz-game .home {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.main__quiz-game .home > button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  box-shadow: 0 0 4px #462323;
+  background-color: #fadaaf;
+}
+.main__quiz-game .home > button > a {
+  text-decoration: none;
+  color: #463214;
+}
+.main__quiz-game .home > button > a > i {
+  font-size: 30px;
+}
