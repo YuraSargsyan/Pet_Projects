@@ -8,8 +8,8 @@ const projectImages = [
         project: "/images/weather-quiz-unsmushed.png"
     },
     {
-        name: 'postTable',
-        project: "/images/1625358858_11-phonoteka-org-p-kviz-oboi-oboi-krasivo-11.jpg"
+        name: 'toDoList',
+        project: "/images/to-do-list_.jpg"
     },
     
     // "./images/1625358858_11-phonoteka-org-p-kviz-oboi-oboi-krasivo-11.jpg",

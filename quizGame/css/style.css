@@ -75,3 +75,16 @@
   font-size: 1.5rem;
   box-shadow: 0 0 5px 5px #5c3f169a;
 }
+.main__quiz-game .container .quiz-box #quiz #score {
+  color: #fde597;
+  font-size: 3rem;
+}
+.main__quiz-game .container .quiz-box #quiz .quiz-repeat {
+  margin-top: 4rem;
+}
+.main__quiz-game .container .quiz-box #quiz .quiz-repeat a {
+  text-decoration: none;
+  color: #ffe0c6;
+  font-size: 4rem;
+  text-shadow: 0 0 4px #0074f8;
+}

@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('/toDoList/images/1620756097_12-phonoteka_org-p-foni-dlya-biblioteki-stim-13.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+}
+body #wrapper {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  min-width: 65%;
+  min-height: 100vh;
+  background-color: rgba(151, 133, 94, 0.37);
+  border-radius: 10px;
+}
+body #wrapper .book-header #page-banner {
+  padding: 10px 0;
+}
+body #wrapper .book-header #page-banner h1,
+body #wrapper .book-header #page-banner p {
+  color: #f0f8ff;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+body #wrapper .book-header #page-banner input {
+  width: 90%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #444;
+}
+body #wrapper #book-list {
+  width: 100%;
+}
+body #wrapper #book-list > h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.637);
+  text-shadow: 2px 5px 3px #eed1d1;
+}
+body #wrapper #book-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+body #wrapper #book-list ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-left: 5px solid #ddd;
+  margin: 20px 10px;
+  font-size: 1.5rem;
+  color: antiquewhite;
+}
+body #wrapper #book-list ul li:hover {
+  border-color: #3f2800;
+}
+body #wrapper #book-list ul li .delete {
+  background: #634c2c75;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+body #wrapper #book-list ul li .delete:hover {
+  background-color: #dbb7818c;
+}
+body #wrapper #book-list ul .completed {
+  text-decoration: line-through;
+  color: aliceblue;
+}
+body #wrapper #add-book input {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  box-sizing: border-box;
+  width: 300px;
+}
+body #wrapper #add-book input:focus {
+  outline-style: none;
+}
+body #wrapper #add-book button {
+  border: 1px solid #3a3022;
+  background: #3a2f22;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  width: 100px;
+  margin: 20px 0;
+  border-left: 0;
+  color: white;
+}
+body #wrapper #add-book #hide {
+  width: 30px;
+}
+body #wrapper #add-book label {
+  line-height: 52px;
+}
