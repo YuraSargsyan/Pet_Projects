@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-image: url('/toDoList/images/1620756097_12-phonoteka_org-p-foni-dlya-biblioteki-stim-13.jpg');
+  background-image: url('/toDoList/images/1625579419_9-kartinkin-com-p-staraya-biblioteka-fon-krasivie-foni-9.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,7 +21,7 @@ body #wrapper {
   gap: 2rem;
   min-width: 65%;
   min-height: 100vh;
-  background-color: rgba(151, 133, 94, 0.37);
+  background-color: rgba(0, 0, 0, 0.356);
   border-radius: 10px;
 }
 body #wrapper .book-header #page-banner {
@@ -65,8 +65,8 @@ body #wrapper #book-list ul li {
   padding: 20px;
   border-left: 5px solid #ddd;
   margin: 20px 10px;
-  font-size: 1.5rem;
-  color: antiquewhite;
+  font-size: 2rem;
+  color: aliceblue;
 }
 body #wrapper #book-list ul li:hover {
   border-color: #3f2800;
